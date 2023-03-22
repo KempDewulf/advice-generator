@@ -11,8 +11,6 @@ function init() {
     getAdvice(advice, adviceID, button)
     document.querySelector("button").addEventListener("click", function () {
         getAdvice(advice, adviceID, button)});
-    document.querySelector("#test").innerText = TEST;
-    document.querySelector("#test2").innerText = process.env.TEST;
 }
 
 function getAdvice(advice, adviceID, button) {
